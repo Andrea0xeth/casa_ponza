@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa a Ponza</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Background Video -->
+    <div style="padding:56.25% 0 0 0;position:relative;">
+        <iframe src="https://player.vimeo.com/video/964804768?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ponza-background"></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+    <!-- Background Music -->
+    <audio autoplay loop id="bg-music">
+        <source src="https://www.bensound.com/bensound-music/bensound-relaxing.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h1>Benvenuti nella Casa a Ponza</h1>
+        <p>Scopri la tua casa da sogno in una delle isole più belle del Mediterraneo.</p>
+        <button id="open-modal-btn" class="btn">Scopri di più</button>
+    </div>
+
+    <!-- More Info Modal -->
+    <div id="more-info-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal-btn" class="close">&times;</span>
+            <h2>Informazioni sulla Casa</h2>
+            <p>Questa splendida casa situata a Ponza offre una vista mozzafiato sul mare e un'esperienza unica di relax e comfort.</p>
+            <ul>
+                <li>3 Camere da Letto</li>
+                <li>2 Bagni</li>
+                <li>Giardino Privato</li>
+                <li>Accesso Diretto alla Spiaggia</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
