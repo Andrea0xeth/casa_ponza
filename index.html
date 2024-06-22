@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa a Ponza</title>
+    <title>Tramonto su Palmarola</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -14,15 +14,12 @@
         Your browser does not support HTML5 video.
     </video>
 
-    <!-- Background Music -->
-    <audio autoplay loop id="bg-music">
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
+    <!-- Background Music (SoundCloud Playlist) -->
+    <iframe id="bg-music" width="0" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1388606857&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
     <!-- Main Content -->
     <div class="content">
-        <h1>Benvenuti nella Casa a Ponza</h1>
+        <h1>Benvenuti a Tramonto su Palmarola</h1>
         <p>Scopri la tua casa da sogno in una delle isole più belle del Mediterraneo.</p>
         <button id="open-modal-btn" class="btn">Scopri di più</button>
     </div>
@@ -32,12 +29,33 @@
         <div class="modal-content">
             <span id="close-modal-btn" class="close">&times;</span>
             <h2>Informazioni sulla Casa</h2>
-            <p>Questa splendida casa situata a Ponza offre una vista mozzafiato sul mare e un'esperienza unica di relax e comfort.</p>
+            <p>La casa ha 3 sezioni:</p>
+            <h3>Un locale ampio con:</h3>
             <ul>
-                <li>3 Camere da Letto</li>
-                <li>2 Bagni</li>
-                <li>Giardino Privato</li>
-                <li>Accesso Diretto alla Spiaggia</li>
+                <li>2 bagni</li>
+                <li>2 piani
+                    <ul>
+                        <li>Piano terra con una cucina, un bagno, un salone ed una camera matrimoniale (2 posti letto)</li>
+                        <li>Primo piano con un bagno, ed una camera con 5 posti letto (due letti matrimoniali)</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Un locale piccolo:</h3>
+            <ul>
+                <li>Una mini casa con cucina, bagno e camera matrimoniale</li>
+            </ul>
+            <h3>Spazio esterno con:</h3>
+            <ul>
+                <li>1 posto auto</li>
+                <li>Ampio giardino panoramico e balconi panoramici</li>
+            </ul>
+            <h3>Posizione:</h3>
+            <p>Si trova in Strada provinciale "Le Forna"</p>
+            <iframe src="https://maps.google.com/maps?q=Strada%20provinciale%20Le%20Forna&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <h3>Contatti:</h3>
+            <ul>
+                <li>Email: <a href="mailto:info@example.com">info@example.com</a></li>
+                <li>Numero: <a href="tel:+1234567890">+1234567890</a></li>
             </ul>
         </div>
     </div>
