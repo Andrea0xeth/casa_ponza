@@ -137,3 +137,10 @@ body, html {
       width: 90%;
   }
 }
+
+@media (min-width: 769px) {
+  .modal-content {
+      width: 70%;
+      max-width: 900px;
+  }
+}
