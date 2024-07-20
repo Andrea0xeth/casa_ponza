@@ -9,7 +9,7 @@
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Tramonto su Palmarola">
     <meta property="og:description" content="Scopri la tua casa da sogno in una delle isole più belle del Mediterraneo.">
-    <meta property="og:image" content="assets/images/ponza-background-frame.jpg">
+    <meta property="og:image" content="assets/images/logo.png">
     <meta property="og:url" content="https://tuosito.com">
     <meta property="og:type" content="website">
 
@@ -17,22 +17,29 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tramonto su Palmarola">
     <meta name="twitter:description" content="Scopri la tua casa da sogno in una delle isole più belle del Mediterraneo.">
-    <meta name="twitter:image" content="assets/images/ponza-background-frame.jpg">
+    <meta name="twitter:image" content="assets/images/logo.png">
     <meta name="twitter:url" content="https://tuosito.com">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
 </head>
 <body>
 
     <!-- Background Video -->
-    <video autoplay muted loop playsinline id="bg-video">
-        <source src="assets/videos/ponza-background.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-    </video>
+    <div class="video-container">
+        <video autoplay muted loop playsinline id="bg-video">
+            <source src="assets/videos/ponza-background.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="video-overlay"></div>
+    </div>
 
     <!-- Background Music (SoundCloud Playlist) -->
     <iframe id="bg-music" width="0" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1388606857&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
     <!-- Main Content -->
     <div class="content">
+        <img src="assets/images/logo.png" alt="Logo" class="logo">
         <h1>Benvenuti a Tramonto su Palmarola</h1>
         <p>Scopri la tua casa da sogno in una delle isole più belle del Mediterraneo.</p>
         <button id="open-modal-btn" class="btn">Scopri di più</button>
@@ -43,30 +50,48 @@
         <div class="modal-content">
             <span id="close-modal-btn" class="close">&times;</span>
             <h2>Informazioni sulla Casa</h2>
-            <p>La casa ha 3 sezioni:</p>
-            <h3>Un locale ampio con:</h3>
+            <p>Situata in via Strada Provinciale Le Forna, questa splendida villa offre una vista mozzafiato sull'incantevole isola di Palmarola. A soli 100 metri dal Bar Tartaruga, l'alloggio turistico si sviluppa su due piani e può ospitare fino a 10 persone (8 nella casa grande e 2 nella dependance, con possibilità di aggiungere una brandina per un totale di 11 persone).</p>
+            
+            <h3>Piano Terra</h3>
+            <p>Il piano terra dispone di:</p>
             <ul>
-                <li>2 bagni</li>
-                <li>2 piani
-                    <ul>
-                        <li>Piano terra con una cucina, un bagno, un salone ed una camera matrimoniale (2 posti letto)</li>
-                        <li>Primo piano con un bagno, ed una camera con 5 posti letto (due letti matrimoniali)</li>
-                    </ul>
-                </li>
+                <li>Dependance con cucina attrezzata, camera da letto matrimoniale con cabina armadio e bagno</li>
+                <li>Casa grande con ampia cucina attrezzata, una camera matrimoniale e un bagno</li>
+                <li>Giardino ben curato, arredato con divani da esterno, ideale per momenti di relax all'aperto</li>
+                <li>Pergolato con un grande tavolo da 10 persone, perfetto per pranzi e cene all'aperto</li>
+                <li>Due ingressi singoli: uno per la casa grande e uno per la dependance</li>
             </ul>
-            <h3>Un locale piccolo:</h3>
+            
+            <h3>Secondo Piano</h3>
+            <p>Il secondo piano della casa principale è caratterizzato da:</p>
             <ul>
-                <li>Una mini casa con cucina, bagno e camera matrimoniale</li>
+                <li>Spazio soppalcato con un letto matrimoniale, un divano letto con materasso e due puff che si trasformano in due letti singoli aggiuntivi</li>
+                <li>Bagno ulteriore per maggiore comodità</li>
+                <li>Terrazzo su due livelli, arredato con un tavolo e divanetti, perfetto per ammirare il tramonto con una vista panoramica indimenticabile</li>
             </ul>
-            <h3>Spazio esterno con:</h3>
+            
+            <h3>Comfort e Servizi</h3>
             <ul>
-                <li>1 posto auto</li>
-                <li>Ampio giardino panoramico e balconi panoramici</li>
+                <li>Aria condizionata disponibile sia nella villa principale che nella dependance</li>
+                <li>Posto auto disponibile per un'auto o due scooter</li>
             </ul>
-            <h3>Posizione:</h3>
+            
+            <h3>Servizi e Attività nelle Vicinanze</h3>
+            <p>A pochi metri dalla villa si trovano tutti i servizi necessari per un soggiorno senza pensieri:</p>
+            <ul>
+                <li>Alimentari e supermercato</li>
+                <li>Bar e ristoranti</li>
+                <li>Fermata dell'autobus e taxi</li>
+                <li>Noleggio di macchine, motorini e barche</li>
+            </ul>
+            <p>Le principali discese a mare della zona di Le Forna Ponza, come La Caletta, Le Piscine, Cala Feola e Cala dell'Acqua, sono facilmente raggiungibili. La villa dista solo 10 minuti dal porto.</p>
+            <p>Questa villa è la scelta ideale per chi desidera una vacanza rilassante in un contesto esclusivo, con tutti i comfort di una casa moderna e la bellezza naturale di Ponza e Palmarola a portata di mano. È perfetta per 8 persone per soggiorni confortevoli o 10 persone per alloggi brevi.</p>
+            
+            <h3>Posizione</h3>
             <p>Si trova in Strada provinciale "Le Forna"</p>
             <iframe src="https://maps.google.com/maps?q=Strada%20provinciale%20Le%20Forna&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <h3>Contatti:</h3>
+            
+            <h3>Contatti</h3>
             <ul>
                 <li>Email: <a href="mailto:info@example.com">info@example.com</a></li>
                 <li>Numero: <a href="tel:+1234567890">+1234567890</a></li>
