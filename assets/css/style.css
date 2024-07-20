@@ -56,6 +56,7 @@ body, html {
 .content h1 {
   font-size: 3em;
   margin-bottom: 0.5em;
+  margin-top: 0.2em; /* Riduce lo spazio tra il logo e la scritta */
 }
 
 .content p {
@@ -81,7 +82,7 @@ body, html {
 /* Logo styling */
 .logo {
   width: 150px;
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Riduce lo spazio sotto il logo */
 }
 
 /* Modal styling */
@@ -108,6 +109,8 @@ body, html {
   max-width: 600px;
   border-radius: 10px;
   text-align: left;
+  font-size: 0.9em; /* Rende il font più piccolo e uniforme */
+  line-height: 1.4em; /* Migliora la leggibilità */
 }
 
 .close {
@@ -130,7 +133,7 @@ body, html {
 }
 
 .modal ul li {
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 0.5em 0;
 }
 
